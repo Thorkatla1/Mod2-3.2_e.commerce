@@ -125,6 +125,7 @@ LANDING
 */
 
 #landing {
+  height: 100%vh;
   background-color: rgba(115, 66, 214, 0.219);
   z-index: 2;
 }
@@ -155,6 +156,7 @@ h1 {
   color: #7342d6;
   margin-bottom: 24px;
   text-align: center;
+  margin-top: 40px;
 }
 h2 {
   font-size: 32px;
@@ -183,6 +185,7 @@ button:active {
 }
 
 .container {
+
   padding: 56px 0;
 }
 
@@ -199,7 +202,7 @@ HIGHLIGHTS
 */
 #highlights {
   position: relative;
-  max-width: 100 vw;
+  max-width: 100 vh;
 }
 
 #highlights:before,
@@ -369,10 +372,7 @@ footer {
 SMALL PHONES, TABLETS, LARGE SMARTPHONES
 */
 @media (max-width: 768px) {
-  .header__container {
-    padding: 0 16px;
-  
-  }
+ 
   .header__description {
     padding: 0 24px;
   }
