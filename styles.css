@@ -96,7 +96,7 @@ li {
   visibility: visible;
   opacity: 1;
 }
-.menu--open{
+.menu--open {
   max-height: 100vh;
   overflow-y: hidden;
 }
@@ -145,6 +145,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20px;
 }
 .header__img--wrapper {
   padding: 20px;
@@ -234,7 +235,6 @@ HIGHLIGHTS
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
 .highlight__para {
   text-align: center;
@@ -369,7 +369,7 @@ footer {
 /*
 SMALL PHONES, TABLETS, LARGE SMARTPHONES
 */
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .header__description {
     padding: 0 24px;
   }
@@ -379,13 +379,12 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
   h2 {
     font-size: 26px;
   }
-  button{
+  button {
     font-size: 18px;
   }
   .book {
     width: 50%;
   }
-  
 }
 
 /*
@@ -400,9 +399,8 @@ SMALL PHONES, LARGE SMARTPHONES
   }
   .highlight {
     width: 100%;
-   
   }
   .highlight:not(:last-child) {
-     margin-bottom: 24px;
+    margin-bottom: 24px;
   }
 }
