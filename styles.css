@@ -145,7 +145,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
 }
 .header__img--wrapper {
   padding: 20px;
@@ -373,8 +372,23 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
   .header__description {
     padding: 0 24px;
   }
+  .header__img--wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding-left: 100px;
+    margin-left: 120px;
+  }
+  .header__description{
+    margin-bottom: 40px;
+  }
+  .header:before{
+    height: 200px;
+  }
   h1 {
     font-size: 40px;
+    width: 100%;
+    max-width: 80%;
+    margin-top: 28px;
   }
   h2 {
     font-size: 26px;
@@ -384,6 +398,13 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
   }
   .book {
     width: 50%;
+    padding: 40px;
+  }
+  .books {
+    width: 100%;
+  }
+  .row {
+    padding: 0 28px;
   }
 }
 
