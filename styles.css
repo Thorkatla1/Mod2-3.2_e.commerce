@@ -127,13 +127,12 @@ LANDING
 */
 
 #landing {
-  height: 100vh;
- 
+  min-height: 100vh;
   background-color: rgba(115, 66, 214, 0.219);
   z-index: 2;
 }
 header {
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
 }
 .header__container,
 .summary__container {
@@ -151,6 +150,7 @@ header {
   align-items: center;
 }
 .header__img--wrapper {
+ max-height: 50%;
   padding: 20px;
   z-index: 2;
 }
